@@ -170,7 +170,7 @@ public class ModificarActividades extends AppCompatActivity {
                 protected Map<String,String> getParams() throws AuthFailureError {
                     Map<String,String> params = new HashMap<String,String>();
                     params.put("accion","eliminar");
-                    params.put("id_tarea",id_tarea)00
+                    params.put("id_tarea",id_tarea);
                     return params;
                 }
             };
